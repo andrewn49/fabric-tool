@@ -1,0 +1,39 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="fabric.min.js"></script>
+  <script src="javascript.js"></script>
+</head>
+
+<body>
+
+	<div id='canvasContainer'>
+		<canvas width='700' height='600' id="c"></canvas>
+	</div>
+
+	<button onclick='circleMaker()'> Gimme a Circle </button>
+
+	<button onclick='squareMaker()' class='squares'>Gimme a Rectangle</button>
+
+	<button onclick='arrowMaker()' class='arrow'>Gimme an Arrow</button>
+
+	<button onclick='sendBack()' class='backward'>Send Backward</button>
+
+	<button onclick='bringForward()' class='forward'>Bring Forward</button>
+
+	<button onclick='deleteFunction()' class="delete"> Delete Selected Object</button>
+
+	<input type="text" name="textContent" id="circletext">
+	<button onclick="submitFunction()" class='submit'>Change Text</button>
+
+	<button onclick='clearFunction()' class='clear'> Clear</button>
+
+	<button onclick='lockFunction()' class='lock'>Lock Objects</button>
+
+	<button onclick='unlockFunction()' class='unlock'>Unlock Objects</button>
+
+	<button onclick='canvasExport()' class='export'>Export Canvas</button>
+
+</body>
+
+</html>
